@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <title>Filter</title>
+</head>
+<body>
+    <h1>Filter App</h1>
+    <div class="canvas-container">
+        <canvas id="canvas1"></canvas>
+        <canvas id="canvas2"></canvas>
+    </div>       
+    <div class="button-container">
+        <input type="file" accept="image/*" multiple="false" id="fileInput" onchange="upload()">
+        <div class="color-selector">
+            <button onClick="PurpleFilter()">Purple Filter</button>
+            <button onClick="GreyFilter()">Grey Filter</button>
+        </div>
+    </div>
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
